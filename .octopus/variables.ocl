@@ -1,0 +1,7 @@
+variable "WebsitePackageId" {
+    value "Channel.Release" {}
+
+    value "Channel.Dev" {
+        description = ""
+    }
+}
