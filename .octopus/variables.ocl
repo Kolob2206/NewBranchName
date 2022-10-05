@@ -1,8 +1,10 @@
 variable "WebsitePackageId" {
-    value "Channel.Release" {}
-
     value "clientref" {
         channel = ["default"]
         description = ""
+    }
+
+    value "Channel.Release" {
+        channel = ["second"]
     }
 }
